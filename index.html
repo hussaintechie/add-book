@@ -1,0 +1,46 @@
+​<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>booksky</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="navbar">
+  <h1>booksky</h1>
+</div>
+<div class="container">
+  <div class="book-container">
+    <h2>rich dad poor dad</h2>
+    <h3>robert</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit commodi veritatis maxime atque iure cum illo, magnam repudiandae molestiae ullam nostrum ea assumenda similique! Facere voluptatum placeat porro dolores rem?</p>
+  <button type="button" class="btn btn-danger"  onclick="del(event)">delete</button>
+  </div>
+</div>
+<div class="popup-overlay"></div>
+<div class="detail">
+  <h3>Add book</h3>
+  <form>
+    <input type="text" placeholder="Book title " id="book">
+ 
+  <input  type="text"placeholder="Author" id="author-name">
+ 
+  <textarea placeholder="short description.. " id="book-description"></textarea>
+  <button type="button" class="btn btn-success" id="add">add</button>
+  <button type="button" class="btn btn-danger" id="cancel">cancel</button>
+  </form>
+</div>
+<button type="button" class="add-button" id="add-button">+</button>
+  
+  <script src="javacsript.js"></script>
+  
+</body>
+</html>
